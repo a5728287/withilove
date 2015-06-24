@@ -37,7 +37,6 @@
 		
 	}
 	
-	
 	$PRES = $db_conn -> sql($default_db, $PSQL);
 	
 	
@@ -47,13 +46,14 @@
 		$PageInfo['HeadName'] = $PageInfo['MenuName'];
 	} else {
 		$PageInfo['HeadName'] = $PageInfo['CategoryName'];
-		$PageInfo['info'] .=  $PageInfo['GroupName'] . " <span class=\"gt\">&gt;</span> ";
+//		$PageInfo['info'] .=  $PageInfo['GroupName'] . " <span class=\"gt\">&gt;</span> ";
 	}
 	if (!$ca) {
 		$PageInfo['info'] .= $PageInfo['CategoryName'] . " <span class=\"gt\">&gt;</span> <strong>". $PageInfo['MenuName']."</strong>";
 	} else {
 		$PageInfo['info'] .= $PageInfo['CategoryName'] . " <span class=\"gt\">&gt;</span> <strong>전체</strong>";
 	}
+
 	/* //서브페이지 인포메이션 불러오기 */
 
 	// 상단 메뉴 만들기 
@@ -63,6 +63,7 @@
 			SELECT * FROM `sitemenu`
 			WHERE iActive='1' AND iParent_id='". $PageInfo['Parent_id'] ."' ORDER BY iSort
 		";
+
 		$SMRES = $db_conn -> sql($default_db, $SMSQL);
 		$rows = mysql_num_rows($SMRES);
 		$tab_width = 1000 / $rows;
@@ -90,7 +91,7 @@
 	<div class="container_wrap">
 		<?php include_once("$path/inc/shortcutmenu.php");?>
 		<div class="sub_content">
-			<div class="sub_info"><img src="<?=$root?>/images/icon_home.gif" alt="홈" /> <span class="gt">&gt;</span> <?=$PageInfo['info']?> </div>
+			<div class="sub_info"><img src="<?=$root?>/images/icon_home.gif" alt="홈" /> <span class="gt">&gt;</span> 
+			<?=$PageInfo['info']?> </div>
 			<h3 class="pagename"><?=$PageInfo['HeadName']?></h3>
 			<?=$tabMenu?>
-		

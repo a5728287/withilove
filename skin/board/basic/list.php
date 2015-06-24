@@ -92,7 +92,7 @@ if($iTotal) {
 ?>
 
 <div class="tab_list">
-	<?=$category_tab?>
+	<?//=$category_tab?>
 </div>
 <div class="list_table">
 	<?=$ReturnValue?>

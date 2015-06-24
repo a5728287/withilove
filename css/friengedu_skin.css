@@ -63,7 +63,11 @@ input[type="password"] {border:1px solid #cdd2d7; height:14px; padding:3px}
 /* 서브메뉴 드롭다운 */
 .navi .navi_menutitle .submenu {position:absolute; top:50px; padding-top:0px; width:100%; display:none; background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(254,255,255,0.9) 1%,rgba(190,216,255,0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6bed8ff',GradientType=0 ); left:0;}
 
+/*
 .container {height:659px}
+*/
+
+.container {height:680px}
 /*백그라운드*/
 .bg1 {background:url(../images/friengsedu/bg_main1.png) no-repeat top center}
 /*.bg_title {background:url(../images/friengsedu/main_text1.png) no-repeat; width:504px; height:86px; position:absolute;}*/
@@ -76,28 +80,31 @@ input[type="password"] {border:1px solid #cdd2d7; height:14px; padding:3px}
 .container_wrap {position:relative; width:1000px; height:100%; margin:0 auto; }
 .sub_container {position:relative; width:1000px;margin:0 auto;}
 
-/*.shortcut_menu {background:url(../images/bg_shortcutbox.png) repeat-x 0 -100px; margin:0 21px; height:100px; text-align:center;}
-.shortcut_menu:before {content:""; position:absolute; width:21px; height:100px;background:url(../images/bg_shortcutbox.png) no-repeat; left:0px; top:0px;}
-.shortcut_menu:after {content:""; position:absolute; width:21px; height:100px;background:url(../images/bg_shortcutbox.png) no-repeat top right; right:0px; top:0px;}*/
+.shortcut_menu2 {background:url(../images/bg_shortcutbox.png) repeat-x 0 -100px; margin:0 21px; height:100px; text-align:center;}
+.shortcut_menu2:before {content:""; position:absolute; width:21px; height:100px;background:url(../images/bg_shortcutbox.png) no-repeat; left:0px; top:0px;}
+.shortcut_menu2:after {content:""; position:absolute; width:21px; height:100px;background:url(../images/bg_shortcutbox.png) no-repeat top right; right:0px; top:0px;}
 
-/*.shortcut_menu > a {display:inline-block; height:60px; width:100px; background:url(../images/icon_shortcut.png) no-repeat; margin:0 28px; position:relative; top:10px;}
-.shortcut_menu > a .new {display:block; position:absolute; background:url(../images/shot_new.gif) no-repeat; width:28px; height:11px; right:0px; top:10px;}*/
+.shortcut_menu2 > a {display:inline-block; height:60px; width:100px; background:url(../images/icon_shortcut.png) no-repeat; margin:0 28px; position:relative; top:10px;}
+.shortcut_menu2 > a .new {display:block; position:absolute; background:url(../images/shot_new.gif) no-repeat; width:28px; height:11px; right:0px; top:10px;}
 
-.shortcut_menu .shortcut_item1 {background-position: 0px 0px}
-.shortcut_menu .shortcut_item2 {background-position: 0px -60px}
-.shortcut_menu .shortcut_item3 {background-position: 0px -120px}
-.shortcut_menu .shortcut_item4 {background-position: 0px -180px}
-.shortcut_menu .shortcut_item5 {background-position: 0px -240px}
-.shortcut_menu .shortcut_item6 {background-position: 0px -300px}
+.shortcut_menu2 .shortcut_item1 {background-position: 0px 0px}
+.shortcut_menu2 .shortcut_item2 {background-position: 0px -60px}
+.shortcut_menu2 .shortcut_item3 {background-position: 0px -120px}
+.shortcut_menu2 .shortcut_item4 {background-position: 0px -180px}
+.shortcut_menu2 .shortcut_item5 {background-position: 0px -240px}
+.shortcut_menu2 .shortcut_item6 {background-position: 0px -300px}
 
-.shortcut_menu .shortcut_item1:hover, .shortcut_menu .shortcut_item1:focus {background-position: -100px 0px;}
-.shortcut_menu .shortcut_item2:hover, .shortcut_menu .shortcut_item2:focus {background-position: -100px -60px;}
-.shortcut_menu .shortcut_item3:hover, .shortcut_menu .shortcut_item3:focus {background-position: -100px -120px;}
-.shortcut_menu .shortcut_item4:hover, .shortcut_menu .shortcut_item4:focus {background-position: -100px -180px;}
-.shortcut_menu .shortcut_item5:hover, .shortcut_menu .shortcut_item5:focus {background-position: -100px -240px;}
-.shortcut_menu .shortcut_item6:hover, .shortcut_menu .shortcut_item6:focus {background-position: -100px -300px;}
+.shortcut_menu2 .shortcut_item1:hover, .shortcut_menu2 .shortcut_item1:focus {background-position: -100px 0px;}
+.shortcut_menu2 .shortcut_item2:hover, .shortcut_menu2 .shortcut_item2:focus {background-position: -100px -60px;}
+.shortcut_menu2 .shortcut_item3:hover, .shortcut_menu2 .shortcut_item3:focus {background-position: -100px -120px;}
+.shortcut_menu2 .shortcut_item4:hover, .shortcut_menu2 .shortcut_item4:focus {background-position: -100px -180px;}
+.shortcut_menu2 .shortcut_item5:hover, .shortcut_menu2 .shortcut_item5:focus {background-position: -100px -240px;}
+.shortcut_menu2 .shortcut_item6:hover, .shortcut_menu2 .shortcut_item6:focus {background-position: -100px -300px;}
 
+/*
 .main_content {height:380px; width:100%; position:absolute; bottom:0px; background:#FFF;}
+*/
+.main_content {height:380px; width:100%; position:absolute; bottom:14px; background:#FFF;}
 .main_content .grid > li {float:left; position:relative;}
 .main_content .grid:after {content:""; display:block; clear:both;}
 .main_content .grid .col1 {width:300px;}
@@ -144,7 +151,7 @@ input[type="password"] {border:1px solid #cdd2d7; height:14px; padding:3px}
 .partnership > ul {width:1000px; margin:0 auto; text-align:center}
 .partnership > ul > li {display:inline-block; margin:0 9px;}
 
-.info_tip {padding:11px 13px; height:190px; background:linear-gradient(to bottom, #ffffff 0%,#dedede 100%)}
+.info_tip {padding:11px 13px; height:204px; background:linear-gradient(to bottom, #ffffff 0%,#dedede 100%)}
 .info_tip a:nth-child(odd) {float:left}
 .info_tip a:nth-child(even) {float:right}
 .info_tip a >img {margin-bottom:7px;} 
@@ -160,9 +167,10 @@ input[type="password"] {border:1px solid #cdd2d7; height:14px; padding:3px}
 /*.info_tip2 .tip7, .info_tip2 .tip8 {height:99px;}
 .info_tip2 .tip7, .info_tip2 .tip4_2 {height:106px;}
 */
+
 .info_tip3 .tip8 {display:block; height:71px}
 .info_tip3 .tip9 {display:block; height:70px}
-.info_tip3 .tip10 {display:block; height:70px}
+.info_tip3 .tip10 {display:block; height:70px;padding-top:69px;}
 
 .copyright {height:100px; background:#f3f3f3;}
 .copyright > div {width:770px; margin:0 auto; padding-left:230px; position:relative;}

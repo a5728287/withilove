@@ -56,10 +56,10 @@
 			<ul class="grid">
 				<li class="col1">
 					<div class="info_tip">
-						<a href="javascript:alert('준비중 입니다.');"><img src="<?=$path?>/images/friengsedu/tip1_1.png" alt="영어지도사" /></a>
-						<a href="/sub_tax/academy/cash_receipt.php"><img src="<?=$path?>/images/friengsedu/tip1_2.png" alt="학원어플" /></a>
+						<a href="http://edu-bay.com"><img src="<?=$path?>/images/friengsedu/tip1_1.png" alt="홍보물,전단,배너" /></a>
+						<a href="/sub_tax/academy/cash_receipt.php"><img src="<?=$path?>/images/friengsedu/tip1_2.png" alt="원투교육사" /></a>
 						<a href="http://withfriengs.com/" target="_blank"><img src="<?=$path?>/images/friengsedu/tip2_1.png" alt="학원전용교육원 위드프랭즈" /></a>
-						<a href="./sub_tax/saving_tip/evidence.php"><img src="<?=$path?>/images/friengsedu/tip2_2.png" alt="원장님만의 절세Tip" /></a>
+						<a href="./sub_tax/saving_tip/evidence.php"><img src="<?=$path?>/images/friengsedu/tip2_2.png" alt="우리동네 어린이집 찾기" /></a>
 					</div>
 				</li>
 				<li class="col2">
@@ -67,14 +67,12 @@
 						<a href="http://www.학원.biz" class="tip4_1" target="_blank"><img src="<?=$path?>/images/friengsedu/tip4_1.jpg" alt="학원.biz 이용하기" /></a>
 						<a href="./sub_tax/offer/contract_counsel.php" class="tip5"><img src="<?=$path?>/images/friengsedu/tip5_6.jpg" alt="학원노무상담" /></a>
 						<a href="./sub_tax/aboutas/list.php" class="tip4_2"><img src="<?=$path?>/images/friengsedu/tip4_2.jpg" alt="위드프랭즈 교육원 세무계약 리스트" /></a>
-						<a href="./sub_tax/offer/contract_counsel.php" class="tip7"><img src="<?=$path?>/images/friengsedu/tip7_8.jpg" alt="학원법률상담" /></a>
 					</div>
 				</li>
 				<li class="col3">
 					<div class="info_tip3">
-						<a href="./sub_etc/cooperative_firm/cooperation_introduce.php" class="tip8"><img src="<?=$path?>/images/main1/btn_email.jpg" alt="협력업체를 모십니다" /></a>
-						<a href="./sub_etc/community/keyman.php" class="tip9"><img src="<?=$path?>/images/main1/btn_board.jpg" alt="키맨을 모십니다" /></a>
-						<a href="./sub_etc/community/speaker.php" class="tip10"><img src="<?=$path?>/images/main1/btn_tax.jpg" alt="연사를 모십니다" /></a>
+						<a href="./sub_etc/cooperative_firm/cooperation_introduce.php" class="tip8"><img src="<?=$path?>/images/main1/edudesign.png" alt="에듀디자인" /></a>
+						<a href="./sub_etc/community/speaker.php" class="tip10"><img src="<?=$path?>/images/main1/btn_email.jpg" alt="고객센타 상담" /></a>
 					</div>
 				</li>
 			</ul>
